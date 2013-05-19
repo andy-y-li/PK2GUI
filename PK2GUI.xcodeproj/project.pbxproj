@@ -19,6 +19,7 @@
 		55B54E571749219B00D5594F /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		55B54E581749219B00D5594F /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55B54E591749219B00D5594F /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = ja; path = ja.lproj/Credits.rtf; sourceTree = "<group>"; };
+		55B54E5A174924B600D5594F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		55E390BF1747CC1300CC90F4 /* PK2GUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PK2GUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E390C21747CC1300CC90F4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		55E390C51747CC1300CC90F4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -49,6 +50,7 @@
 		55E390B61747CC1300CC90F4 = {
 			isa = PBXGroup;
 			children = (
+				55B54E5A174924B600D5594F /* README.md */,
 				55E390E01747CC4B00CC90F4 /* Resource */,
 				55E390C81747CC1300CC90F4 /* PK2_GUI */,
 				55E390C11747CC1300CC90F4 /* Frameworks */,
