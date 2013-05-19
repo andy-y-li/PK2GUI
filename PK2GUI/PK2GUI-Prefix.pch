@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'PICkit2_GUI' target in the 'PICkit2_GUI' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

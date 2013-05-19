@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55E390C31747CC1300CC90F4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E390C21747CC1300CC90F4 /* Cocoa.framework */; };
+		55E390CD1747CC1300CC90F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55E390CB1747CC1300CC90F4 /* InfoPlist.strings */; };
+		55E390CF1747CC1300CC90F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E390CE1747CC1300CC90F4 /* main.m */; };
+		55E390D31747CC1300CC90F4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 55E390D11747CC1300CC90F4 /* Credits.rtf */; };
+		55E390D61747CC1300CC90F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E390D51747CC1300CC90F4 /* AppDelegate.m */; };
+		55E390D91747CC1300CC90F4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55E390D71747CC1300CC90F4 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55B54E571749219B00D5594F /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		55B54E581749219B00D5594F /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55B54E591749219B00D5594F /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = ja; path = ja.lproj/Credits.rtf; sourceTree = "<group>"; };
+		55E390BF1747CC1300CC90F4 /* PK2GUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PK2GUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E390C21747CC1300CC90F4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		55E390C51747CC1300CC90F4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		55E390C61747CC1300CC90F4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		55E390C71747CC1300CC90F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55E390CA1747CC1300CC90F4 /* PK2GUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PK2GUI-Info.plist"; sourceTree = "<group>"; };
+		55E390CE1747CC1300CC90F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55E390D01747CC1300CC90F4 /* PK2GUI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PK2GUI-Prefix.pch"; sourceTree = "<group>"; };
+		55E390D41747CC1300CC90F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55E390D51747CC1300CC90F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55E390E11747CC7700CC90F4 /* pk2cmd */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = pk2cmd; sourceTree = "<group>"; };
+		55E390E21747CC7700CC90F4 /* PK2DeviceFile.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = PK2DeviceFile.dat; sourceTree = "<group>"; };
+		55E390E31747CC7700CC90F4 /* PK2V023200.hex */ = {isa = PBXFileReference; lastKnownFileType = text; path = PK2V023200.hex; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55E390BC1747CC1300CC90F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E390C31747CC1300CC90F4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55E390B61747CC1300CC90F4 = {
+			isa = PBXGroup;
+			children = (
+				55E390E01747CC4B00CC90F4 /* Resource */,
+				55E390C81747CC1300CC90F4 /* PK2_GUI */,
+				55E390C11747CC1300CC90F4 /* Frameworks */,
+				55E390C01747CC1300CC90F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55E390C01747CC1300CC90F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55E390BF1747CC1300CC90F4 /* PK2GUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55E390C11747CC1300CC90F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55E390C21747CC1300CC90F4 /* Cocoa.framework */,
+				55E390C41747CC1300CC90F4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55E390C41747CC1300CC90F4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55E390C51747CC1300CC90F4 /* AppKit.framework */,
+				55E390C61747CC1300CC90F4 /* CoreData.framework */,
+				55E390C71747CC1300CC90F4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		55E390C81747CC1300CC90F4 /* PK2_GUI */ = {
+			isa = PBXGroup;
+			children = (
+				55E390D41747CC1300CC90F4 /* AppDelegate.h */,
+				55E390D51747CC1300CC90F4 /* AppDelegate.m */,
+				55E390D71747CC1300CC90F4 /* MainMenu.xib */,
+				55E390C91747CC1300CC90F4 /* Supporting Files */,
+			);
+			name = PK2_GUI;
+			path = PK2GUI;
+			sourceTree = "<group>";
+		};
+		55E390C91747CC1300CC90F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55E390CA1747CC1300CC90F4 /* PK2GUI-Info.plist */,
+				55E390CB1747CC1300CC90F4 /* InfoPlist.strings */,
+				55E390CE1747CC1300CC90F4 /* main.m */,
+				55E390D01747CC1300CC90F4 /* PK2GUI-Prefix.pch */,
+				55E390D11747CC1300CC90F4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55E390E01747CC4B00CC90F4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				55E390E11747CC7700CC90F4 /* pk2cmd */,
+				55E390E21747CC7700CC90F4 /* PK2DeviceFile.dat */,
+				55E390E31747CC7700CC90F4 /* PK2V023200.hex */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55E390BE1747CC1300CC90F4 /* PK2GUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E390DC1747CC1300CC90F4 /* Build configuration list for PBXNativeTarget "PK2GUI" */;
+			buildPhases = (
+				55E390BB1747CC1300CC90F4 /* Sources */,
+				55E390BC1747CC1300CC90F4 /* Frameworks */,
+				55E390BD1747CC1300CC90F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PK2GUI;
+			productName = PICkit2_GUI;
+			productReference = 55E390BF1747CC1300CC90F4 /* PK2GUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55E390B71747CC1300CC90F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "森田 晃平";
+			};
+			buildConfigurationList = 55E390BA1747CC1300CC90F4 /* Build configuration list for PBXProject "PK2GUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ja,
+			);
+			mainGroup = 55E390B61747CC1300CC90F4;
+			productRefGroup = 55E390C01747CC1300CC90F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55E390BE1747CC1300CC90F4 /* PK2GUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55E390BD1747CC1300CC90F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E390CD1747CC1300CC90F4 /* InfoPlist.strings in Resources */,
+				55E390D31747CC1300CC90F4 /* Credits.rtf in Resources */,
+				55E390D91747CC1300CC90F4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55E390BB1747CC1300CC90F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E390CF1747CC1300CC90F4 /* main.m in Sources */,
+				55E390D61747CC1300CC90F4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55E390CB1747CC1300CC90F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55B54E581749219B00D5594F /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		55E390D11747CC1300CC90F4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55B54E591749219B00D5594F /* ja */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		55E390D71747CC1300CC90F4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55B54E571749219B00D5594F /* ja */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55E390DA1747CC1300CC90F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55E390DB1747CC1300CC90F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55E390DD1747CC1300CC90F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PK2GUI/PK2GUI-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/PK2GUI/PK2GUI-Info.plist";
+				PRODUCT_NAME = PK2GUI;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		55E390DE1747CC1300CC90F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PK2GUI/PK2GUI-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/PK2GUI/PK2GUI-Info.plist";
+				PRODUCT_NAME = PK2GUI;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55E390BA1747CC1300CC90F4 /* Build configuration list for PBXProject "PK2GUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E390DA1747CC1300CC90F4 /* Debug */,
+				55E390DB1747CC1300CC90F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E390DC1747CC1300CC90F4 /* Build configuration list for PBXNativeTarget "PK2GUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E390DD1747CC1300CC90F4 /* Debug */,
+				55E390DE1747CC1300CC90F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55E390B71747CC1300CC90F4 /* Project object */;
+}
