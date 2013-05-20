@@ -18,6 +18,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 }
+
 - (NSString *)loadArgument {
     NSMutableString *argument = [NSMutableString string];
     if (!_chipType) {
@@ -27,7 +28,7 @@
         }
     }
     [argument appendFormat:@"-P%@ ", _chipType];
-    if (!exPowerButton.state) {
+    if (exPowerButton.state) {
         [argument appendString:@"-W "];
     }
     if (powerButton.state) {
@@ -47,7 +48,7 @@
 - (void)launchPICkit2:(NSString *)argument {
     _task  = [[NSTask alloc] init];
     _pipe  = [[NSPipe alloc] init];
-    
+    fieldOfCommand.stringValue = argument;
     [_task setCurrentDirectoryPath:[NSBundle mainBundle].resourcePath];
     [_task setLaunchPath: @"/bin/bash"];
     [_task setStandardOutput: _pipe];
@@ -56,7 +57,11 @@
 }
 
 - (IBAction)pushInitButton:(id)sender {
-    [self launchPICkit2:@"-P"];
+    if (exPowerButton.state) {
+        [self launchPICkit2:@"-W -P"];
+    } else {
+        [self launchPICkit2:@"-P"];
+    }
     NSData *data = [[_pipe fileHandleForReading] readDataToEndOfFile];
     _chipType = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
     _chipType = [_chipType stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];

@@ -14,6 +14,7 @@
     IBOutlet NSButton *powerButton;
     IBOutlet NSButton *mclrButton;
     IBOutlet NSTextField *fieldOfHexFilePath;
+    IBOutlet NSTextField *fieldOfCommand;
 }
 
 - (IBAction)pushInitButton:(id)sender;

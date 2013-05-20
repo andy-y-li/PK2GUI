@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55B54E5E174A6A1500D5594F /* pk2cmd in Resources */ = {isa = PBXBuildFile; fileRef = 55E390E11747CC7700CC90F4 /* pk2cmd */; };
+		55B54E5F174A6A1700D5594F /* PK2DeviceFile.dat in Resources */ = {isa = PBXBuildFile; fileRef = 55E390E21747CC7700CC90F4 /* PK2DeviceFile.dat */; };
+		55B54E60174A6A1A00D5594F /* PK2V023200.hex in Resources */ = {isa = PBXBuildFile; fileRef = 55E390E31747CC7700CC90F4 /* PK2V023200.hex */; };
 		55E390C31747CC1300CC90F4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E390C21747CC1300CC90F4 /* Cocoa.framework */; };
 		55E390CD1747CC1300CC90F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55E390CB1747CC1300CC90F4 /* InfoPlist.strings */; };
 		55E390CF1747CC1300CC90F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E390CE1747CC1300CC90F4 /* main.m */; };
@@ -174,6 +177,9 @@
 				55E390CD1747CC1300CC90F4 /* InfoPlist.strings in Resources */,
 				55E390D31747CC1300CC90F4 /* Credits.rtf in Resources */,
 				55E390D91747CC1300CC90F4 /* MainMenu.xib in Resources */,
+				55B54E5E174A6A1500D5594F /* pk2cmd in Resources */,
+				55B54E5F174A6A1700D5594F /* PK2DeviceFile.dat in Resources */,
+				55B54E60174A6A1A00D5594F /* PK2V023200.hex in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
