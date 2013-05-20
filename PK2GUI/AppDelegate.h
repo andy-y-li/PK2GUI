@@ -10,6 +10,7 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate> {
     IBOutlet NSTextField *fieldOfChipType;
+    IBOutlet NSButton *exPowerButton;
     IBOutlet NSButton *powerButton;
     IBOutlet NSButton *mclrButton;
     IBOutlet NSTextField *fieldOfHexFilePath;

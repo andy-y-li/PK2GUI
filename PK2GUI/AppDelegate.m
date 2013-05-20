@@ -27,6 +27,9 @@
         }
     }
     [argument appendFormat:@"-P%@ ", _chipType];
+    if (!exPowerButton.state) {
+        [argument appendString:@"-W "];
+    }
     if (powerButton.state) {
         [argument appendString:@"-T "];
     }
