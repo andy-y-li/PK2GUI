@@ -7,21 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55B54E5E174A6A1500D5594F /* pk2cmd in Resources */ = {isa = PBXBuildFile; fileRef = 55E390E11747CC7700CC90F4 /* pk2cmd */; };
-		55B54E5F174A6A1700D5594F /* PK2DeviceFile.dat in Resources */ = {isa = PBXBuildFile; fileRef = 55E390E21747CC7700CC90F4 /* PK2DeviceFile.dat */; };
-		55B54E60174A6A1A00D5594F /* PK2V023200.hex in Resources */ = {isa = PBXBuildFile; fileRef = 55E390E31747CC7700CC90F4 /* PK2V023200.hex */; };
 		55E390C31747CC1300CC90F4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E390C21747CC1300CC90F4 /* Cocoa.framework */; };
-		55E390CD1747CC1300CC90F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55E390CB1747CC1300CC90F4 /* InfoPlist.strings */; };
 		55E390CF1747CC1300CC90F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E390CE1747CC1300CC90F4 /* main.m */; };
-		55E390D31747CC1300CC90F4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 55E390D11747CC1300CC90F4 /* Credits.rtf */; };
 		55E390D61747CC1300CC90F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E390D51747CC1300CC90F4 /* AppDelegate.m */; };
-		55E390D91747CC1300CC90F4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55E390D71747CC1300CC90F4 /* MainMenu.xib */; };
+		A170C72029AC3E7C00C8BB49 /* pk2cmd in Resources */ = {isa = PBXBuildFile; fileRef = A170C71F29AC3E7C00C8BB49 /* pk2cmd */; };
+		A170C72329AC3F1E00C8BB49 /* PK2DeviceFile.dat in Resources */ = {isa = PBXBuildFile; fileRef = A170C72129AC3F1E00C8BB49 /* PK2DeviceFile.dat */; };
+		A170C72429AC3F1E00C8BB49 /* PK2V023200.hex in Resources */ = {isa = PBXBuildFile; fileRef = A170C72229AC3F1E00C8BB49 /* PK2V023200.hex */; };
+		A170C72A29AC474300C8BB49 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A170C72829AC474300C8BB49 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		55B54E571749219B00D5594F /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		55B54E581749219B00D5594F /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		55B54E591749219B00D5594F /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = ja; path = ja.lproj/Credits.rtf; sourceTree = "<group>"; };
 		55B54E5A174924B600D5594F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		55E390BF1747CC1300CC90F4 /* PK2GUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PK2GUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E390C21747CC1300CC90F4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -33,9 +28,10 @@
 		55E390D01747CC1300CC90F4 /* PK2GUI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PK2GUI-Prefix.pch"; sourceTree = "<group>"; };
 		55E390D41747CC1300CC90F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		55E390D51747CC1300CC90F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		55E390E11747CC7700CC90F4 /* pk2cmd */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = pk2cmd; sourceTree = "<group>"; };
-		55E390E21747CC7700CC90F4 /* PK2DeviceFile.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = PK2DeviceFile.dat; sourceTree = "<group>"; };
-		55E390E31747CC7700CC90F4 /* PK2V023200.hex */ = {isa = PBXFileReference; lastKnownFileType = text; path = PK2V023200.hex; sourceTree = "<group>"; };
+		A170C71F29AC3E7C00C8BB49 /* pk2cmd */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = pk2cmd; path = PK2GUI/pk2cmd; sourceTree = SOURCE_ROOT; };
+		A170C72129AC3F1E00C8BB49 /* PK2DeviceFile.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = PK2DeviceFile.dat; path = PK2GUI/PK2DeviceFile.dat; sourceTree = SOURCE_ROOT; };
+		A170C72229AC3F1E00C8BB49 /* PK2V023200.hex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PK2V023200.hex; path = PK2GUI/PK2V023200.hex; sourceTree = SOURCE_ROOT; };
+		A170C72B29AC484B00C8BB49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +89,7 @@
 			children = (
 				55E390D41747CC1300CC90F4 /* AppDelegate.h */,
 				55E390D51747CC1300CC90F4 /* AppDelegate.m */,
-				55E390D71747CC1300CC90F4 /* MainMenu.xib */,
+				A170C72829AC474300C8BB49 /* MainMenu.xib */,
 				55E390C91747CC1300CC90F4 /* Supporting Files */,
 			);
 			name = PK2_GUI;
@@ -104,10 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				55E390CA1747CC1300CC90F4 /* PK2GUI-Info.plist */,
-				55E390CB1747CC1300CC90F4 /* InfoPlist.strings */,
 				55E390CE1747CC1300CC90F4 /* main.m */,
 				55E390D01747CC1300CC90F4 /* PK2GUI-Prefix.pch */,
-				55E390D11747CC1300CC90F4 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -115,9 +109,9 @@
 		55E390E01747CC4B00CC90F4 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				55E390E11747CC7700CC90F4 /* pk2cmd */,
-				55E390E21747CC7700CC90F4 /* PK2DeviceFile.dat */,
-				55E390E31747CC7700CC90F4 /* PK2V023200.hex */,
+				A170C71F29AC3E7C00C8BB49 /* pk2cmd */,
+				A170C72129AC3F1E00C8BB49 /* PK2DeviceFile.dat */,
+				A170C72229AC3F1E00C8BB49 /* PK2V023200.hex */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -174,12 +168,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55E390CD1747CC1300CC90F4 /* InfoPlist.strings in Resources */,
-				55E390D31747CC1300CC90F4 /* Credits.rtf in Resources */,
-				55E390D91747CC1300CC90F4 /* MainMenu.xib in Resources */,
-				55B54E5E174A6A1500D5594F /* pk2cmd in Resources */,
-				55B54E5F174A6A1700D5594F /* PK2DeviceFile.dat in Resources */,
-				55B54E60174A6A1A00D5594F /* PK2V023200.hex in Resources */,
+				A170C72429AC3F1E00C8BB49 /* PK2V023200.hex in Resources */,
+				A170C72029AC3E7C00C8BB49 /* pk2cmd in Resources */,
+				A170C72329AC3F1E00C8BB49 /* PK2DeviceFile.dat in Resources */,
+				A170C72A29AC474300C8BB49 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,26 +190,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		55E390CB1747CC1300CC90F4 /* InfoPlist.strings */ = {
+		A170C72829AC474300C8BB49 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				55B54E581749219B00D5594F /* ja */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		55E390D11747CC1300CC90F4 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				55B54E591749219B00D5594F /* ja */,
-			);
-			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		55E390D71747CC1300CC90F4 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				55B54E571749219B00D5594F /* ja */,
+				A170C72B29AC484B00C8BB49 /* en */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";

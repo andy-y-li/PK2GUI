@@ -1,13 +1,16 @@
-# 使い方
-コンパイルするとき、もしくはした後に、
-Resourceファイル内に
+# Usage
+After compilation or after
+In the resource file
+
 * pk2cmd
 * PK2DeviceFile.dat
 * PK2V023200.hex
 
-の３つのファイルを入れてください。
-このファイルたちはmicrochipのサイトから入手できます
-twitter:[@_y0s](http://twitter.com/_y0s)
-# 重要
-pk2cmdの仕様かわかりませんが、外部電源を自動判別できません。
-必ず手動で設定してください
+Put 3 files in
+This file is available from the [microchip site GitHub](https://github.com/psmay/pk2cmd.git)
+
+
+
+**Connect to PICkit2**:
+
+![connrct](PicKit2_PicKit3_Pinout_V4.jpg)

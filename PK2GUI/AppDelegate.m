@@ -68,6 +68,7 @@
     if ([_chipType isEqualToString:@"Auto-Detect: No known part found."]) {
         _chipType = nil;
         fieldOfChipType.stringValue = @"";
+        NSRunAlertPanel(@"Warnning", @"Auto-Detect:No known part found!", @"OK", nil, nil);
     } else {
         _chipType = [_chipType stringByReplacingOccurrencesOfString:@"Auto-Detect: Found part " withString:@""];
         _chipType = [[_chipType componentsSeparatedByString:@"."] objectAtIndex:0];
@@ -102,8 +103,21 @@
     if (argument) {
         [argument appendFormat:@"-M -F%@", _hexPath];
         [self launchPICkit2:argument];
+        NSData *data = [[_pipe fileHandleForReading] readDataToEndOfFile];
+        NSString *replyStr = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+        replyStr = [replyStr stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+        if ([replyStr rangeOfString:@"Errors"].location != NSNotFound) {
+            NSRunAlertPanel(@"Warnning", @"Program Errors!", @"OK", nil, nil);
+        }
+        
     }
     NSLog(@"%@", argument);
+}
+
+- (void)windowShouldClose:(id)sender
+{
+    NSLog(@"should close");
+    exit(0);
 }
 
 @end
